@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View } from 'react-native'
+import { View, Text } from 'react-native'
 import ViewContent from './components/ViewContent'
 import axios from 'axios'
 import ViewButton from './components/ViewButton'
@@ -43,6 +43,7 @@ const App = () => {
     <View className="flex-1 border-2 m-3">
       <ViewButton getAPI={getAPI} post={post} handleClear={handleClear} />
       <ViewContent data={data} />
+      <Text>datgfghfgf</Text>
     </View>
   )
 }
